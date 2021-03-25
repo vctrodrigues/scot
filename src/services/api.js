@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_KEY = "BUIQG69NM4GGY34Y";
+const API_KEY = process.env.API_KEY;
 const URL = "https://www.alphavantage.co/query";
 
 export default class Api {
